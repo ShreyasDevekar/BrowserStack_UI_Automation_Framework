@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test name="AmazonAppTest(failed)">
+    <classes>
+      <class name="tests.SampleTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="afterTestMethod"/>
+          <include name="ValidatingCartProductDetails"/>
+          <include name="beforeTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.SampleTest -->
+    </classes>
+  </test> <!-- AmazonAppTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
