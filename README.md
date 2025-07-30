@@ -44,8 +44,8 @@ AUTOMATE_KEY = <browserstack_api_key>
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ShreyasDevekar/IOS_CloudBased_Automation_Framework.git
-cd IOS_CloudBased_Automation_Framework
+git clone https://github.com/ShreyasDevekar/BrowserStack_UI_Automation_Framework.git
+cd BrowserStack_UI_Automation_Framework
 ```
 
 ### 2. Configure BrowserStack
